@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🕷️ Un pequeño secreto</title>
+    <!-- Fuentes premium de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="overlay"></div>
+    <!-- Contenedor general para la lluvia de partículas y frases -->
+    <div id="particles-container"></div>
+
+    <div class="container">
+        <!-- Título principal corregido para máxima legibilidad -->
+        <h1 class="title">
+            ¿Quieres ser la <span class="neon-text-mj">MJ</span><br>
+            de este <span class="neon-text-andrew">Andrew Garfield</span>?
+        </h1>
+
+        <p class="subtitle">
+            "En cada universo existente, siempre terminaría eligiéndote a ti." ✨❤️🕷️
+        </p>
+
+        <!-- Zona central interactiva (Cambia al aceptar) -->
+        <div id="interactive-zone">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="slides">
+                        <img src="02.jpeg" alt="Momento 1">
+                        <img src="03.jpeg" alt="Momento 2">
+                        <img src="05.jpeg" alt="Momento 3">
+                        <img src="06.jpeg" alt="Momento 4">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botones de la propuesta -->
+            <div class="question">
+                <button id="yes" class="btn-glow">❤️ Sí, acepto</button>
+                <button id="no">🙈 Me dio pena</button>
+            </div>
+        </div>
+
+        <!-- Contenedor oculto para el gran final romántico -->
+        <div id="result" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
