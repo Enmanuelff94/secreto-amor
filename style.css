@@ -242,3 +242,25 @@ button {
     .question { flex-direction: column; width: 100%; }
     button { width: 100%; }
 }
+
+.love-carousel{
+ width:100%; overflow:hidden; margin:14px 0 18px; border-radius:18px;
+ background:linear-gradient(90deg,rgba(255,42,109,.18),rgba(5,217,232,.15));
+ border:1px solid rgba(255,255,255,.12); padding:14px 0;
+}
+.love-track{
+ display:inline-block; white-space:nowrap; min-width:100%;
+ animation:loveMove 30s linear infinite;
+ font-family:'Georgia', serif;
+ font-size:1rem; color:#ffd6f0;
+}
+.love-highlight{
+ font-family:'Bangers', cursive;
+ color:#6ff7ff;
+ font-size:1.15rem;
+ text-shadow:0 0 10px rgba(5,217,232,.7);
+}
+@keyframes loveMove{
+ from{transform:translateX(100%)}
+ to{transform:translateX(-100%)}
+}
